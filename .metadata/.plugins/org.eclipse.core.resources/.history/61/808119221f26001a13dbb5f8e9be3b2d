@@ -1,0 +1,5 @@
+package com.orl.auth.entry;
+
+public class User {
+
+}

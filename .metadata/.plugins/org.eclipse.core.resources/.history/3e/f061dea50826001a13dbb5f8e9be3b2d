@@ -1,0 +1,6 @@
+package com.orl.auth.mapper;
+
+public interface RoleMapper {
+
+	public 
+}

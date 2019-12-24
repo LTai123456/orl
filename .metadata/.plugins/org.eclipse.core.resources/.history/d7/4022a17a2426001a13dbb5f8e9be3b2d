@@ -1,0 +1,8 @@
+package com.orl.auth.service;
+
+import com.baomidou.mybatisplus.service.IService;
+import com.orl.auth.entry.User;
+
+public interface UserService  extends IService<User>{
+
+}

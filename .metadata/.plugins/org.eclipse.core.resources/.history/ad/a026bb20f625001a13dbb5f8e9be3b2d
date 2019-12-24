@@ -1,0 +1,12 @@
+package com.orl.auth.config;
+
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+/**
+ * mvc 基础配置类
+ * @author lt
+ *
+ */
+public class MvnConfig extends WebMvcConfigurerAdapter{
+
+}

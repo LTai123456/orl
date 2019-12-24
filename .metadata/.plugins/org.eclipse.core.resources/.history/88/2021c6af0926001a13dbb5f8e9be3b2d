@@ -1,0 +1,11 @@
+package com.orl.auth.mapper;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import com.baomidou.mybatisplus.mapper.BaseMapper;
+
+@Mapper
+public interface RoleMapper extends BaseMapper<Role>{
+
+	
+}

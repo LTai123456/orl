@@ -1,0 +1,5 @@
+package com.orl.auth.service;
+
+public class RoleService {
+
+}

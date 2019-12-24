@@ -1,0 +1,963 @@
+!SESSION 2019-12-24 09:42:07.944 -----------------------------------------------
+eclipse.buildId=4.1.0.201812201400-RELEASE
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -data F:\lt\orl -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2019-12-24 09:42:13.974
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-12-24 09:42:13.974
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3aca2579,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ba13fed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-12-24 09:42:20.648
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-24 09:44:53.276
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-24 09:44:53.277
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-24 09:44:53.277
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-24 09:44:53.280
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-24 09:44:53.281
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:02.477
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:02.478
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1a899fcd[org.springframework.tooling.boot.ls:1.2.0.201812201040(id=531)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:02.479
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:02.520
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.165
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qBYHDpsb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.166
+!MESSAGE subscribing to classpath changes: sts4.classpath.qBYHDpsb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.169
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.171
+!MESSAGE subsribers = [sts4.classpath.qBYHDpsb]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.172
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.178
+!MESSAGE project springEurika-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.180
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.180
+!MESSAGE Preparing classpath changed notification springEurika-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.181
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qBYHDpsb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.181
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.209
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.210
+!MESSAGE executing callback sts4.classpath.qBYHDpsb springEurika-server false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 09:45:07.585
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 09:45:09.679
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 09:46:01.679
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 09:48:07.810
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 09:48:26.568
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY Activator 4 0 2019-12-24 10:13:06.995
+!MESSAGE XmlPullParserException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:90)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:351)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:330)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.run(NewSpringBootWizard.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:559)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:568)
+	at org.eclipse.m2e.core.embedder.MavenModelManager.readMavenModel(MavenModelManager.java:95)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:109)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	... 4 more
+Caused by: org.apache.maven.model.io.ModelParseException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:114)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:82)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:557)
+	... 8 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEntityRef(MXParser.java:2748)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1540)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1317)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextText(MXParser.java:1275)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2100)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3852)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:109)
+	... 10 more
+Root exception:
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:559)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:568)
+	at org.eclipse.m2e.core.embedder.MavenModelManager.readMavenModel(MavenModelManager.java:95)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:109)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:351)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:330)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.run(NewSpringBootWizard.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:114)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:82)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:557)
+	... 8 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEntityRef(MXParser.java:2748)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1540)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1317)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextText(MXParser.java:1275)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2100)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3852)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:109)
+	... 10 more
+
+!ENTRY Activator 4 0 2019-12-24 10:17:58.102
+!MESSAGE XmlPullParserException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:90)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:351)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:330)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.run(NewSpringBootWizard.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:559)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:568)
+	at org.eclipse.m2e.core.embedder.MavenModelManager.readMavenModel(MavenModelManager.java:95)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:109)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	... 4 more
+Caused by: org.apache.maven.model.io.ModelParseException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:114)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:82)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:557)
+	... 8 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEntityRef(MXParser.java:2748)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1540)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1317)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextText(MXParser.java:1275)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2100)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3852)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:109)
+	... 10 more
+Root exception:
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:559)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:568)
+	at org.eclipse.m2e.core.embedder.MavenModelManager.readMavenModel(MavenModelManager.java:95)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:109)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:351)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:330)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.run(NewSpringBootWizard.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:114)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:82)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:557)
+	... 8 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: entity reference names can not start with character ' ' (position: START_TAG seen ...<description>denglu & ... @15:24) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEntityRef(MXParser.java:2748)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1540)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1317)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextText(MXParser.java:1275)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2100)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3852)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:109)
+	... 10 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:51.907
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:51.908
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:51.910
+!MESSAGE classpath=24 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:51.911
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:52.588
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:52.589
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:52.590
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:52.606
+!MESSAGE classpath=162 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:52.607
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 162
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:21:52.664
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 4 0 2019-12-24 10:24:00.933
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.getField(BinaryTypeBinding.java:1253)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.buildRetentionAnnotation(AnnotationBinding.java:120)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotationBinding.addStandardAnnotations(AnnotationBinding.java:81)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.retrieveAnnotations(BinaryTypeBinding.java:1629)
+	at org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding.getAnnotations(ReferenceBinding.java:1006)
+	at org.eclipse.jdt.core.dom.TypeBinding.getAnnotations(TypeBinding.java:121)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getAnnotations(JavadocHover.java:1194)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.addAnnotations(JavadocHover.java:1151)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:44:53.339
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:44:53.340
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:44:53.357
+!MESSAGE classpath=163 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:44:53.357
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 163
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:44:53.402
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:41.437
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:41.438
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:41.450
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:41.450
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:41.478
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:47.172
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:47.173
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:47.185
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:47.186
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 10:46:47.198
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 10:55:42.191
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:00:12.643
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:00:13.885
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:00:13.897
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:00:56.299
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jface 2 0 2019-12-24 11:01:26.635
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-12-24 11:01:26.635
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@56839c2d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.springframework.ide.eclipse.boot.restart.commands.restart,Trigger Restart,
+		Restart Spring Boot Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a99d6fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:02:23.971
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.text 4 2 2019-12-24 11:03:43.388
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+java.lang.IllegalArgumentException: Index out of bounds [offset value: 66]
+	at org.eclipse.swt.SWT.error(SWT.java:4576)
+	at org.eclipse.swt.graphics.TextLayout._getOffset(TextLayout.java:2146)
+	at org.eclipse.swt.graphics.TextLayout.getPreviousOffset(TextLayout.java:2412)
+	at org.eclipse.swt.custom.StyledText.getPointAtOffset(StyledText.java:5564)
+	at org.eclipse.swt.custom.StyledText.setCaretLocation(StyledText.java:8642)
+	at org.eclipse.swt.custom.StyledText.updateSelection(StyledText.java:10793)
+	at org.eclipse.swt.custom.StyledText.handleTextChanged(StyledText.java:6345)
+	at org.eclipse.swt.custom.StyledText$5.textChanged(StyledText.java:5747)
+	at org.eclipse.ui.internal.console.ConsoleDocumentAdapter.documentChanged(ConsoleDocumentAdapter.java:350)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:747)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:716)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:700)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:774)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1105)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1123)
+	at org.eclipse.ui.internal.console.ConsoleDocument.replace(ConsoleDocument.java:95)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner$TrimJob.runInUIThread(IOConsolePartitioner.java:609)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:06:07.557
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:06:09.165
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:06:09.183
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.debug.core 4 2 2019-12-24 11:06:17.666
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.ssh.SshDebugSupport.getElementFor(SshDebugSupport.java:146)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.DebugSupport$1.handleStateChange(DebugSupport.java:104)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.DebugSupport$1.debugTargetTerminated(DebugSupport.java:90)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.debugTargetTerminated(ProcessTracker.java:97)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:79)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1137)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1171)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2019-12-24 11:06:17.667
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.ssh.SshDebugSupport.getElementFor(SshDebugSupport.java:146)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.DebugSupport$1.handleStateChange(DebugSupport.java:104)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.DebugSupport$1.debugTargetTerminated(DebugSupport.java:90)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.debugTargetTerminated(ProcessTracker.java:97)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:79)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1137)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1171)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 4 0 2019-12-24 11:06:17.681
+!MESSAGE DebugException: Launch configuration peer2 at file:/F:/lt/orl/.metadata/.plugins/org.eclipse.debug.core/.launches/peer2.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration peer2 at file:/F:/lt/orl/.metadata/.plugins/org.eclipse.debug.core/.launches/peer2.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:441)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:309)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:294)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getProject(LaunchConfDashElement.java:66)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:87)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:1)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashTreeContentProvider.getParent(BootDashTreeContentProvider.java:68)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1749)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:566)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1678)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2556)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3018)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1456)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1410)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1533)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashUnifiedTreeSection$2$1.run(BootDashUnifiedTreeSection.java:183)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-12-24 11:06:17.681
+!MESSAGE Launch configuration peer2 at file:/F:/lt/orl/.metadata/.plugins/org.eclipse.debug.core/.launches/peer2.launch does not exist.
+
+!ENTRY org.eclipse.debug.core 4 2 2019-12-24 11:06:26.734
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.ssh.SshDebugSupport.getElementFor(SshDebugSupport.java:146)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.DebugSupport$1.handleStateChange(DebugSupport.java:104)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.DebugSupport$1.debugTargetTerminated(DebugSupport.java:90)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.debugTargetTerminated(ProcessTracker.java:97)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:79)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1137)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1171)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2019-12-24 11:06:26.736
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.ssh.SshDebugSupport.getElementFor(SshDebugSupport.java:146)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.DebugSupport$1.handleStateChange(DebugSupport.java:104)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.debug.DebugSupport$1.debugTargetTerminated(DebugSupport.java:90)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.debugTargetTerminated(ProcessTracker.java:97)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:79)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1137)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1171)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 4 0 2019-12-24 11:06:27.194
+!MESSAGE DebugException: Launch configuration peer3 at file:/F:/lt/orl/.metadata/.plugins/org.eclipse.debug.core/.launches/peer3.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration peer3 at file:/F:/lt/orl/.metadata/.plugins/org.eclipse.debug.core/.launches/peer3.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:441)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:309)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:294)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getProject(LaunchConfDashElement.java:66)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:87)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:1)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashTreeContentProvider.getParent(BootDashTreeContentProvider.java:68)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1749)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:566)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1678)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2556)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3018)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1456)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1410)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1533)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashUnifiedTreeSection$2$1.run(BootDashUnifiedTreeSection.java:183)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-12-24 11:06:27.194
+!MESSAGE Launch configuration peer3 at file:/F:/lt/orl/.metadata/.plugins/org.eclipse.debug.core/.launches/peer3.launch does not exist.
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:07:35.353
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 11:09:36.944
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:37:19.882
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:37:19.882
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:37:19.928
+!MESSAGE classpath=174 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:37:19.929
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 174
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:37:19.948
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:38:03.813
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:38:03.814
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:38:03.821
+!MESSAGE classpath=174 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:38:03.821
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 174
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:38:03.831
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-12-24 12:42:30.391
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [RoleService {key=Lcom/orl/auth/service/RoleService;} [in [Working copy] RoleService.java [in com.orl.auth.service [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:607)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:233)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:301)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:661)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:537)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.lambda$0(SpringBootJavaHoverProvider.java:42)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-12-24 12:42:30.391
+!MESSAGE RoleService {key=Lcom/orl/auth/service/RoleService;} [in [Working copy] RoleService.java [in com.orl.auth.service [in src/main/java [in auth]]]] does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:08.448
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:08.449
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:08.458
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:08.459
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:08.471
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:13.321
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:13.321
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:13.331
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:13.331
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 12:49:13.340
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 13:03:55.499
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 13:45:21.605
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 13:48:16.010
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 13:51:02.030
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 13:53:42.799
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 13:55:50.718
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 14:11:18.675
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:13.512
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:13.514
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:13.557
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:13.557
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 178
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:13.572
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:16.324
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:16.325
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:16.343
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:16.343
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 178
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:14:16.362
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 14:14:35.741
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 14:16:11.160
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:17:57.237
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:17:57.238
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:17:57.251
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:17:57.251
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:17:57.264
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:18:40.718
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:18:40.718
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:18:40.730
+!MESSAGE classpath=180 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:18:40.730
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 180
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:18:40.744
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 14:18:44.390
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 14:22:01.217
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 14:24:10.948
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:19.770
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:19.770
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:19.782
+!MESSAGE classpath=180 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:19.783
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 180
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:19.796
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 14:26:22.273
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:23.340
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:23.341
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:23.358
+!MESSAGE classpath=180 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:23.359
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 180
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 14:26:23.376
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:34.403
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:34.404
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:34.437
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:34.438
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:34.468
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:39.685
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:39.690
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:39.730
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:39.732
+!MESSAGE executing callback sts4.classpath.qBYHDpsb auth false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 15:58:39.768
+!MESSAGE executing callback sts4.classpath.qBYHDpsb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:07.421
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qBYHDpsb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:07.422
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qBYHDpsb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:07.422
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:07.423
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qBYHDpsb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.499
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yuxzwPZO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.500
+!MESSAGE subscribing to classpath changes: sts4.classpath.yuxzwPZO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.500
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.501
+!MESSAGE subsribers = [sts4.classpath.yuxzwPZO]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.501
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.502
+!MESSAGE project auth ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.502
+!MESSAGE project springEurika-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.503
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.503
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.504
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.504
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yuxzwPZO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.519
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.520
+!MESSAGE executing callback sts4.classpath.yuxzwPZO auth false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.996
+!MESSAGE executing callback sts4.classpath.yuxzwPZO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.996
+!MESSAGE Preparing classpath changed notification springEurika-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:25.997
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:26.011
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:26.012
+!MESSAGE executing callback sts4.classpath.yuxzwPZO springEurika-server false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:06:26.057
+!MESSAGE executing callback sts4.classpath.yuxzwPZO SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 16:11:22.988
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 16:13:10.268
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 16:13:54.933
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 16:14:48.199
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 16:15:38.931
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:51:56.600
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:51:56.600
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:51:56.610
+!MESSAGE classpath=186 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:51:56.611
+!MESSAGE executing callback sts4.classpath.yuxzwPZO auth false 186
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:51:56.628
+!MESSAGE executing callback sts4.classpath.yuxzwPZO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:52:02.581
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:52:02.581
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:52:02.590
+!MESSAGE classpath=186 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:52:02.590
+!MESSAGE executing callback sts4.classpath.yuxzwPZO auth false 186
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-24 16:52:02.600
+!MESSAGE executing callback sts4.classpath.yuxzwPZO SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 16:52:39.300
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 16:55:16.643
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-24 17:55:02.438
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread

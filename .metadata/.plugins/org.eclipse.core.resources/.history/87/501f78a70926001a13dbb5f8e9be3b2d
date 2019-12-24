@@ -1,0 +1,8 @@
+package com.orl.auth.entry;
+
+import lombok.Data;
+
+@Data
+public class Role {
+
+}

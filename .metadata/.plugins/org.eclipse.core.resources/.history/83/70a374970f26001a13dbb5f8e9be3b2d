@@ -1,0 +1,6 @@
+package com.orl.auth.service;
+
+public interface RoleService {
+
+	public List<Role> queryRoles();
+}

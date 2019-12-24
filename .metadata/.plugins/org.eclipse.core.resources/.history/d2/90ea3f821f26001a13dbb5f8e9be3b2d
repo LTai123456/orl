@@ -1,0 +1,5 @@
+package com.orl.auth.mapper;
+
+public interface UserMapper {
+
+}

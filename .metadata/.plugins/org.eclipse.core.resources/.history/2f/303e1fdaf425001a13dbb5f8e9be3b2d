@@ -1,0 +1,11 @@
+package com.orl.auth;
+
+import lombok.Data;
+
+@Data
+public class UserBean {
+ 
+    private String userName;
+
+    private Integer age;
+}

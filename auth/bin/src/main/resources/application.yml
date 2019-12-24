@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      #注册中心的地址
+      defaultZone:  http://peer1:8000/eureka/,http://peer2:8001/eureka/,http://peer3:8002/eureka/
+server:
+  #当前服务端口号
+  port: 8084
+spring:
+  application:
+    #当前应用名称
+    name: service-hi
+
+  

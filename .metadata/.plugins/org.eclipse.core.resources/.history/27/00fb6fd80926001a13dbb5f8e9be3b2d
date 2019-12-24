@@ -1,0 +1,10 @@
+package com.orl.auth.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.orl.auth.service.RoleService;
+@Service
+public class RoleServiceImpl implements RoleService {
+
+	
+}

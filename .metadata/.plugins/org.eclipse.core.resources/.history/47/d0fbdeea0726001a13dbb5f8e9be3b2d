@@ -1,0 +1,7 @@
+package com.orl.auth.service.impl;
+
+import com.orl.auth.service.RoleService;
+
+public class RoleServiceImpl implements RoleService {
+
+}
