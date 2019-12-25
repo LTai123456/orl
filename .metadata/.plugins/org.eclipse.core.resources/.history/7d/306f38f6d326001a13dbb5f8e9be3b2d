@@ -1,0 +1,5 @@
+package com.orl.auth.provider;
+
+public class MyAuthenticationProvider {
+
+}

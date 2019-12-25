@@ -12,3 +12,23 @@
 1577174775983	Move file
 1577174797362	Copy compilation units
 1577174803176	Delete element
+1577235456253	Delete element
+1577235881633	Copy file
+1577235900253	Delete elements
+1577238919807	Rename resource 'statics'
+1577238927118	Move 'demo_sign.html' to 'static'
+1577239027479	Rename resource 'demo_sign.html'
+1577240400695	Rename resource 'login.html'
+1577243511211	Rename resource 'login-error.html'
+1577249465107	Delete element
+1577249913865	Rename compilation unit 'UserBean.java'
+1577249920123	Delete element
+1577249926175	Copy compilation unit
+1577249929704	Delete element
+1577250528575	Delete element
+1577251858627	Rename package 'com.orl.auth.provider'
+1577254389096	Extract local variable 'user'
+1577258797118	Rename resource 'xxx'
+1577261654297	Extract local variable 'bean'
+1577264513885	Delete element
+1577265323059	Delete elements

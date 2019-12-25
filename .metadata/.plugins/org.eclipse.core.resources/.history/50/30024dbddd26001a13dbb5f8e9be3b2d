@@ -1,0 +1,36 @@
+package com.orl.auth.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
+
+import com.baomidou.mybatisplus.mapper.EntityWrapper;
+import com.orl.auth.entity.User;
+import com.orl.auth.vo.UserInfo;
+
+@Service
+public class CustomUserDetailsService implements UserDetailsService {
+	
+	@Autowired
+	private UserService  userService;
+        
+      @Override
+      public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+            // TODO Auto-generated method stub
+            //这里可以可以通过username（登录时输入的用户名）然后到数据库中找到对应的用户信息，并构建成我们自己的UserInfo来返回。
+    	  //这里可以通过数据库来查找到实际的用户信息，这里我们先模拟下,后续我们用数据库来实现
+    	  
+    	  
+    	  User user = userService.selectOne(new EntityWrapper<User>().eq("USER_NAME", username));
+          if(user!=null)
+          {
+                //假设返回的用户信息如下;
+                UserInfo userInfo=new UserInfo("admin", "123456", "ROLE_ADMIN", true,true,true, true);
+                return userInfo;
+                            
+          }
+           return null;
+      }
+}

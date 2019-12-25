@@ -1,0 +1,5 @@
+package com.orl.auth.providerhandler;
+
+public class MyAuthenticationFailHander {
+
+}

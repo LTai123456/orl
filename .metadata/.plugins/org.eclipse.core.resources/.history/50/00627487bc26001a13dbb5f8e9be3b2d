@@ -1,0 +1,53 @@
+package com.orl.auth.service.impl;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
+
+import com.baomidou.mybatisplus.mapper.EntityWrapper;
+import com.orl.auth.entity.Role;
+import com.orl.auth.entity.User;
+import com.orl.auth.service.IOrlRoleUserRelService;
+import com.orl.auth.service.RoleService;
+import com.orl.auth.service.UserService;
+
+@Service("userDetailsService")
+public class CustomUserDetailsService implements UserDetailsService {
+    @Autowired
+    private UserService userService;
+
+    @Autowired
+    private RoleService roleService;
+
+    @Autowired
+    private IOrlRoleUserRelService userRoleService;
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        Collection<GrantedAuthority> authorities = new ArrayList<>();
+        // 从数据库中取出用户信息
+        User user = userService.selectOne(new EntityWrapper<User>().eq("USER_NAME", username));
+
+        // 判断用户是否存在
+        if(user == null) {
+            throw new UsernameNotFoundException("用户名不存在");
+        }
+
+        // 添加权限
+//        List<Role> userRoles = userRoleService.listByUserId(user.getId());
+//        for (Role userRole : userRoles) {
+//            SysRole role = roleService.selectById(userRole.getRoleId());
+//            authorities.add(new SimpleGrantedAuthority(role.getName()));
+//        }
+
+        // 返回UserDetails实现类
+        return user;
+    }
+}
