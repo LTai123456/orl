@@ -1205,3 +1205,852 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-25 17:58:08.706
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.heomaryG => OK
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 12:55:34.890
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 13:00:01.523
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.466
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PAqxaKoO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.467
+!MESSAGE subscribing to classpath changes: sts4.classpath.PAqxaKoO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.467
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.468
+!MESSAGE subsribers = [sts4.classpath.PAqxaKoO]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.469
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.470
+!MESSAGE project auth ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.470
+!MESSAGE project springEurika-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.471
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.471
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.472
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.472
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PAqxaKoO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.491
+!MESSAGE classpath=186 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:07.492
+!MESSAGE executing callback sts4.classpath.PAqxaKoO auth false 186
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:08.004
+!MESSAGE executing callback sts4.classpath.PAqxaKoO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:08.005
+!MESSAGE Preparing classpath changed notification springEurika-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:08.006
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:08.025
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:08.026
+!MESSAGE executing callback sts4.classpath.PAqxaKoO springEurika-server false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:00:08.067
+!MESSAGE executing callback sts4.classpath.PAqxaKoO SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 4 0 2019-12-26 13:21:18.511
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-12-26 13:24:38.497
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 13:31:43.470
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-12-26 13:33:09.839
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-12-26 13:33:40.766
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 13:34:16.845
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 13:38:50.145
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 13:45:56.744
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.ui 4 0 2019-12-26 13:49:08.510
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Graphic is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4595)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.graphics.Font.getFontData(Font.java:195)
+	at org.eclipse.swt.custom.CTabFolderRenderer.getChevronFont(CTabFolderRenderer.java:1707)
+	at org.eclipse.swt.custom.CTabFolderRenderer.computeSize(CTabFolderRenderer.java:307)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.computeSize(CTabRendering.java:204)
+	at org.eclipse.swt.custom.CTabFolder.createButtonImage(CTabFolder.java:724)
+	at org.eclipse.swt.custom.CTabFolder.setButtonBounds(CTabFolder.java:2568)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3794)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3725)
+	at org.eclipse.swt.custom.CTabFolder.onResize(CTabFolder.java:2117)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:338)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Control.sendResize(Control.java:3066)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:1036)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1086)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3307)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3303)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:286)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:231)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:148)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:1040)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1086)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3226)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3274)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1080)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3307)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3303)
+	at org.eclipse.swt.custom.StackLayout.layout(StackLayout.java:126)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3274)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1080)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3307)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3303)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:286)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:231)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:148)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3274)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1080)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3226)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:1010)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:976)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1188)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1768)
+	at org.eclipse.swt.widgets.Canvas.WM_SIZE(Canvas.java:452)
+	at org.eclipse.swt.widgets.Decorations.WM_SIZE(Decorations.java:1668)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(Canvas.java:459)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.SetMenu(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setMenuBar(Decorations.java:1059)
+	at org.eclipse.swt.widgets.Menu.releaseParent(Menu.java:943)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:820)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:429)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:175)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:958)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:886)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:881)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:865)
+	at org.eclipse.ui.internal.WorkbenchWindow$1.handleEvent(WorkbenchWindow.java:333)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4580)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:265)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:150)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.lambda$0(SWTPartRenderer.java:139)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:812)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:429)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:408)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3598)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:300)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3129)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3542)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:164)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4123)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3142)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3542)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:164)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4123)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3142)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3542)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:164)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4123)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3142)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3542)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-26 13:49:08.529
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4576)
+	at org.eclipse.swt.SWT.error(SWT.java:4510)
+	at org.eclipse.swt.SWT.error(SWT.java:4481)
+	at org.eclipse.swt.graphics.GC.setForeground(GC.java:4365)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.drawBackground(CTabRendering.java:1078)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.drawUnselectedTabBackground(CTabRendering.java:1011)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.drawCustomBackground(CTabRendering.java:993)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.draw(CTabRendering.java:221)
+	at org.eclipse.swt.custom.CTabFolder.updateBkImages(CTabFolder.java:3884)
+	at org.eclipse.swt.custom.CTabFolder.setButtonBounds(CTabFolder.java:2618)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3794)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3725)
+	at org.eclipse.swt.custom.CTabFolder.onResize(CTabFolder.java:2117)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:338)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Control.sendResize(Control.java:3066)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:1036)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1086)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3307)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3303)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:286)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:231)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:148)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:1040)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1086)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3226)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3274)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1080)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3307)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3303)
+	at org.eclipse.swt.custom.StackLayout.layout(StackLayout.java:126)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3274)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1080)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3307)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3303)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:286)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:231)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:274)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:148)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3274)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1080)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3235)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3231)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3226)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:207)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1362)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1764)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:1010)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:976)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1188)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1768)
+	at org.eclipse.swt.widgets.Canvas.WM_SIZE(Canvas.java:452)
+	at org.eclipse.swt.widgets.Decorations.WM_SIZE(Decorations.java:1668)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4843)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5687)
+	at org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(Canvas.java:459)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4856)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.SetMenu(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setMenuBar(Decorations.java:1059)
+	at org.eclipse.swt.widgets.Menu.releaseParent(Menu.java:943)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:820)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:429)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:175)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:958)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:886)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:881)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:865)
+	at org.eclipse.ui.internal.WorkbenchWindow$1.handleEvent(WorkbenchWindow.java:333)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4580)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:265)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:150)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.lambda$0(SWTPartRenderer.java:139)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:812)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:429)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:408)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:742)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3598)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:300)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3129)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3542)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:164)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4123)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3142)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3542)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:164)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4123)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3142)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3542)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
+	at org.eclipse.jface.window.Window.open(Window.java:798)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:227)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:164)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4123)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3142)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3542)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SESSION 2019-12-26 13:50:42.811 -----------------------------------------------
+eclipse.buildId=4.1.0.201812201400-RELEASE
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-12-26 13:50:49.582
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2019-12-26 13:50:52.360
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-12-26 13:50:52.360
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@602c167e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74c04377,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-26 13:50:59.955
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-26 13:50:59.962
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-26 13:50:59.963
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-26 13:50:59.964
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-12-26 13:50:59.965
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-12-26 13:51:00.557
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lt'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 13:51:13.994
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 13:52:35.899
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:52.320
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:52.321
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@581f1f40[org.springframework.tooling.boot.ls:1.2.0.201812201040(id=531)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:52.323
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:54.000
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.585
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WUDYZUxC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.585
+!MESSAGE subscribing to classpath changes: sts4.classpath.WUDYZUxC
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.588
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.589
+!MESSAGE subsribers = [sts4.classpath.WUDYZUxC]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.590
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.599
+!MESSAGE project auth ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.601
+!MESSAGE project springEurika-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.601
+!MESSAGE Preparing classpath changed notification auth
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.602
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.602
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.602
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WUDYZUxC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.623
+!MESSAGE classpath=186 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:58.624
+!MESSAGE executing callback sts4.classpath.WUDYZUxC auth false 186
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:59.250
+!MESSAGE executing callback sts4.classpath.WUDYZUxC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:59.250
+!MESSAGE Preparing classpath changed notification springEurika-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:59.251
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:59.264
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:59.265
+!MESSAGE executing callback sts4.classpath.WUDYZUxC springEurika-server false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-26 13:53:59.300
+!MESSAGE executing callback sts4.classpath.WUDYZUxC SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 14:07:02.178
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 15:23:04.002
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 15:24:58.678
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.ui 4 0 2019-12-26 15:42:08.982
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4580)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:349)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:474)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5148)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4797)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2153)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3985)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3541)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:59)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:150)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:731)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:813)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1222)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:203)
+	at sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 64 more
+
+!ENTRY org.eclipse.jdt.debug 2 0 2019-12-26 15:44:33.387
+!MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread

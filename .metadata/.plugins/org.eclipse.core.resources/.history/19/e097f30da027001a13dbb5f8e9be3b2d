@@ -1,0 +1,19 @@
+package com.orl.auth.service.impl;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.orl.auth.entity.User;
+import com.orl.auth.mapper.UserMapper;
+import com.orl.auth.service.UserService;
+@Service
+@Transactional
+public class UserServiceImpl  extends ServiceImpl<UserMapper, User> implements UserService{
+
+	@Override
+	public void regist(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+}

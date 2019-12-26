@@ -6,4 +6,7 @@ import com.orl.auth.entity.User;
 
 public interface UserService  extends IService<User>{
 
+	//用戶注冊接口
+	public void regist(User user) throws Exception;
+
 }
